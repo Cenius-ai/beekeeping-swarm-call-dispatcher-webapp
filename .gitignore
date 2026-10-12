@@ -1,0 +1,17 @@
+# Local environment (never commit real secrets)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Embedded database files (created and seeded on boot)
+data.db
+data.db-wal
+data.db-shm
+test-data.db
+test-data.db-wal
+test-data.db-shm
